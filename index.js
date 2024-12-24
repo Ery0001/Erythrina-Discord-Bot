@@ -284,6 +284,15 @@ client.on("messageCreate", message => {
 
         message.channel.send({ embeds: [embed] })
     }
+    if (message.content === "GreetingsXmas_0001_embed") {
+        let embed = new Discord.MessageEmbed()
+            .setDescription("## MERRY CHRISTMAS!\n\nWishing you a joyous holiday season filled with warmth, laughter, and cherished moments with loved ones. May the spirit of Christmas bring you peace and happiness throughout the New Year.")
+            .setColor("#B76A82")
+            .setImage("https://ik.imagekit.io/Zedi/Picsart_24-12-24_21-21-39-455.jpg?updatedAt=1735046621767")
+            .setFooter("Noblese Guild")
+
+        message.channel.send({ embeds: [embed] })
+    }
 
     /*if (message.content === "Farm") {
         message.channel.send(`${message.author.username}  Hello if you're interested on our Pw farms do \n [!Farm] \n \n Follow exactly if the command has capitalize letters to ensure the command works. have a good day :>`);
