@@ -295,9 +295,9 @@ client.on("messageCreate", message => {
     }
     if (message.content === "GreetingsXmas_0002_embed") {
         let embed = new Discord.MessageEmbed()
-            .setDescription("## MERRY CHRISTMAS!\n\nOlympians!, Wishing you a joyous holiday season filled with warmth, laughter, and cherished moments with loved ones. May the spirit of Christmas bring you peace and happiness throughout the New Year.")
+            .setDescription("## MERRY CHRISTMAS!\n\nOlympians! Wishing you a joyous holiday season filled with warmth, laughter, and cherished moments with loved ones.\n\nMay the spirit of Christmas bring you peace and happiness throughout the New Year.")
             .setColor("#B76A82")
-            .setImage("https://ik.imagekit.io/Zedi/Picsart_24-12-24_21-39-13-268.jpg?updatedAt=1735047590083")
+            .setImage("https://ik.imagekit.io/Zedi/Picsart_24-12-24_21-50-08-817.jpg?updatedAt=1735048316847")
             .setFooter("Noblese Guild")
 
         message.channel.send({ embeds: [embed] })
